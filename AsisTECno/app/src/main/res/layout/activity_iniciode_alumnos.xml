@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".IniciodeAlumnos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="85dp"
+            android:layout_height="56dp"
+            android:src="@drawable/common_google_signin_btn_icon_dark_normal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:id="@+id/txtInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menú User"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingeniería de Software"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Materia"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo: "
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mis Asistencias"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar Código"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subir Justificante"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+
+            android:layout_marginTop="16dp" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

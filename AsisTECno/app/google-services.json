@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "786536215516",
+    "project_id": "asistecv2",
+    "storage_bucket": "asistecv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786536215516:android:f2506fb314f8c8a93f5519",
+        "android_client_info": {
+          "package_name": "com.example.asistec2_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOsR4aYus1Jy3AXSDO8apMYC_cGAQEn1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
